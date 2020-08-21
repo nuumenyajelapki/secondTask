@@ -132,51 +132,51 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
-    .panel{
-        width: 100px;
-        height: 100px;
-        display: inline-block;
-        cursor: pointer;
-    }
-    .panel:hover{
-        box-sizing: border-box;
-        box-shadow: inset 0px 0px 0px 3px whitesmoke;
-    }
-    .top-left{
-        border-top-left-radius: 100%;
-        background-color: #0472E0;
-        opacity: 0.6;
-    }
-    .top-right{
-        border-top-right-radius: 100%;
-        background-color: #EE1602;
-        margin-left: 5px;
-        opacity: 0.6;
-    }
-    .bot-right{
-        border-bottom-right-radius: 100%;
-        background-color: #A2BC20;
-        margin-left: 5px;
-        opacity: 0.6;
-    }
-    .bot-left{
-        border-bottom-left-radius: 100%;
-        background-color: #EED802;
-        opacity: 0.6;
-    }
-    .active{
-        opacity: 1;
-    }
-    button{
-        width: 150px;
-        height: 40px;
-        border-radius: .4rem;
-        border: none;
-        background-color: #5200FF;
-        color: whitesmoke;
-    }
-    button:hover{
-        background-color: #7533FF;
-    }
+<style scoped lang="sass">
+    .panel
+        width: 100px
+        height: 100px
+        display: inline-block
+        cursor: pointer
+    
+    .panel:hover
+        box-sizing: border-box
+        box-shadow: inset 0px 0px 0px 3px whitesmoke
+    
+    .top-left
+        border-top-left-radius: 100%
+        background-color: #0472E0
+        opacity: 0.6
+    
+    .top-right
+        border-top-right-radius: 100%
+        background-color: #EE1602
+        margin-left: 5px
+        opacity: 0.6
+    
+    .bot-right
+        border-bottom-right-radius: 100%
+        background-color: #A2BC20
+        margin-left: 5px
+        opacity: 0.6
+    
+    .bot-left
+        border-bottom-left-radius: 100%
+        background-color: #EED802
+        opacity: 0.6
+    
+    .active
+        opacity: 1
+    
+    button
+        width: 150px
+        height: 40px
+        border-radius: .4rem
+        border: none
+        background-color: #5200FF
+        color: whitesmoke
+    
+    button:hover
+        background-color: #7533FF
+    
 </style>

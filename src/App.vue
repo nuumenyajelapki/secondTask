@@ -16,18 +16,18 @@ export default {
 }
 </script>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #ffffff;
-  margin-top: 60px;
-}
+<style lang="sass">
+#app 
+  font-family: Avenir, Helvetica, Arial, sans-serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  text-align: center
+  color: #ffffff
+  margin-top: 60px
 
-body{
-  background-color: #050506;
-}
+
+body
+  background-color: #050506
+
 
 </style>
